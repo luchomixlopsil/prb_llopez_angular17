@@ -1,0 +1,49 @@
+<!-- //cSpell:disable
+dark:bg-slate-700
+-->
+<div class="max-w-sm mx-auto px-1 py-2 rounded-md">
+    <text
+      [label]="'Nombre del Plato'"
+      placeholder="Ingrese el nombre del Plato"
+      [fGroup]="form"
+      controlName="dishName"
+    />
+    <text
+      [label]="'Descripcion del Plato'"
+      placeholder="Ingrese la descripcion del Plato"
+      [fGroup]="form"
+      controlName="dishDescription"
+    />
+    <text 
+      [label]="'Categoria'" 
+      placeholder="" 
+      [fGroup]="form" 
+      controlName="idCategory" />
+    <text
+      [label]="'Precio de Venta'"
+      placeholder="Ingrese el precio de venta del Plato"
+      [fGroup]="form"
+      controlName="salePrice"
+    /> 
+    <text
+      [label]="'Precio de Produccion del Plato'"
+      placeholder="Ingrese el precio de produccion del Plato"
+      [fGroup]="form"
+      controlName="productionCost"
+    /> 
+    <text 
+      [label]="'Alergenicos'" 
+      placeholder="" 
+      [fGroup]="form" 
+      controlName="allergens" />
+    <text
+      [label]="'Imagen del Plato'"
+      placeholder="Ingrese la ruta de la Imagen del Plato"
+      [fGroup]="form"
+      controlName="dishImage"
+    /> 
+
+    <button type="submit" class="submitButton" (click)="saveData()">
+      Enviar
+    </button>
+  </div>

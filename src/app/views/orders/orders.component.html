@@ -2,6 +2,9 @@
   <h1 class="text-2xl font-bold">Ordenes</h1>
   <section class="flex rounded-md bg-white px-4 py-4 gap-2">
     <div class="w-full grid grid-cols-4">
+
+      @for (order of order(); track order) {
+
       <div class="col-span-1 flex flex-col shadow-md py-2 px-4 gap-2">
         <div class="w-full h-32 rounded-md bg-slate-500 overflow-hidden">
           <img
@@ -35,6 +38,7 @@
           </div>
         </div>
       </div>
+    }
     </div>
   </section>
 </section>

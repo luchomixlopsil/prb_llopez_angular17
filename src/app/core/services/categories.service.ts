@@ -3,7 +3,7 @@ import { categories } from '../const-data/categories';
 import { CategoryResponse } from '@model/categories/categories-response';
 import { CategoriesMapper } from '@mapper/categories/categories-mapper';
 import { inject, Injectable } from '@angular/core';
-import { BehaviorSubject, delay, map, Observable, tap } from 'rxjs';
+import { BehaviorSubject, map, Observable, tap } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../../environments/environment';
 

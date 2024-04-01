@@ -28,10 +28,6 @@ export class NavbarComponent {
       title: 'Ordenes',
       route: 'orders'
     },
-    {
-      title: 'Ejemplos @defer',
-      route: 'defer'
-    },
   ];
 
   selectMenu(index: number): void {

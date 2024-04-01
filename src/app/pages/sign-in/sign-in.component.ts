@@ -12,6 +12,9 @@ export default class SignInComponent {
 
   login(): void {
     localStorage.setItem('isAuthenticated', 'true');
+    //Permitir acceso 0, denegar acceso 1
+    localStorage.setItem('CanAccessToMenu', '0');
     this.router.navigateByUrl('/dashboard');
   }
 }
+ 

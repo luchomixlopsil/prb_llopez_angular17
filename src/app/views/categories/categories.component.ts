@@ -7,7 +7,7 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute } from '@angular/router';
 import { ColorDirective } from '@directives/color.directive';
 import { ActiveWordMayusPipe } from '@pipes/active-word-mayus.pipe';
-
+ 
 @Component({
   selector: 'categories',
   standalone: true,
